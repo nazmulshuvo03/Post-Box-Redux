@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <footer className="page-footer purple darken-4">
       <div className="row container">
-        <div class="col l6 s6">
-          <h5 class="white-text">Nazmul Alom</h5>
+        <div className="col l6 s6">
+        <h5 className="white-text">Nazmul Alom</h5>
           <p class="grey-text text-lighten-4">
             This site is created using React and Redux with Materialize CSS
           </p>
@@ -36,25 +36,25 @@ const Navbar = () => {
                 <li className="col">
                   <a
                     href="https://www.linkedin.com/in/nazmul-alom-441180125/"
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <i class="fab fa-linkedin-in white-text text-darken-1" />
                   </a>
                 </li>
                 <li className="col">
-                  <a href="https://twitter.com/nazmulshuvo03" target="_blank">
+                  <a href="https://twitter.com/nazmulshuvo03" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-twitter white-text text-darken-1" />
                   </a>
                 </li>
                 <li className="col">
-                  <a href="https://github.com/nazmulshuvo03" target="_blank">
+                  <a href="https://github.com/nazmulshuvo03" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-github white-text text-darken-1" />
                   </a>
                 </li>
                 <li className="col">
                   <a
                     href="https://codesandbox.io/u/nazmulshuvo03"
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <i class="fab fa-react white-text text-darken-1" />
                   </a>
