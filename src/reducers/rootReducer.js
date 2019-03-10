@@ -61,7 +61,7 @@ const rootReducer = (state = initState, action) => {
       // console.log("post created", state);
       // return state;
       return {
-        posts: [...state.posts, action.post]
+        posts: [action.post, ...state.posts]
       };
 
     default:
