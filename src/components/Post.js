@@ -14,7 +14,7 @@ class Post extends Component {
     });
   };
   handleSubmit = e => {
-    console.log(this.props);
+    //console.log(this.props);
     e.preventDefault();
     this.props.createPost(this.state);
     this.props.history.push("/");

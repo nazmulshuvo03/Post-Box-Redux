@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <footer className="page-footer purple darken-4">
-      <div className="row container">
+    <footer className="page-footer purple darken-4 z-depth-5">
+      <div className="row container z-depth-5">
         <div className="col l6 s6">
         <h5 className="white-text">Nazmul Alom</h5>
-          <p class="grey-text text-lighten-4">
+          <p className="grey-text text-lighten-4">
             This site is created using React and Redux with Materialize CSS
           </p>
         </div>
 
-        <div class="col l6 s6">
+        <div className="col l6 s6">
           <div className="footer-items right">
             <div className="row">
               <ul>
@@ -38,17 +38,17 @@ const Navbar = () => {
                     href="https://www.linkedin.com/in/nazmul-alom-441180125/"
                     target="_blank" rel="noopener noreferrer"
                   >
-                    <i class="fab fa-linkedin-in white-text text-darken-1" />
+                    <i className="fab fa-linkedin-in white-text text-darken-1" />
                   </a>
                 </li>
                 <li className="col">
                   <a href="https://twitter.com/nazmulshuvo03" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-twitter white-text text-darken-1" />
+                    <i className="fab fa-twitter white-text text-darken-1" />
                   </a>
                 </li>
                 <li className="col">
                   <a href="https://github.com/nazmulshuvo03" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github white-text text-darken-1" />
+                    <i className="fab fa-github white-text text-darken-1" />
                   </a>
                 </li>
                 <li className="col">
@@ -56,7 +56,7 @@ const Navbar = () => {
                     href="https://codesandbox.io/u/nazmulshuvo03"
                     target="_blank" rel="noopener noreferrer"
                   >
-                    <i class="fab fa-react white-text text-darken-1" />
+                    <i className="fab fa-react white-text text-darken-1" />
                   </a>
                 </li>
               </ul>
