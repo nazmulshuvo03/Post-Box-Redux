@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Post-Box-Redux/precache-manifest.d8e446de0380338d32c122e6659a13ac.js"
+  "/Post-Box-Redux/precache-manifest.a381cf3daa04fe25c471813bb545f111.js"
 );
 
 workbox.clientsClaim();
